@@ -1,6 +1,28 @@
 div#bodyDiv{
-    background-color: brown;
+    background-color: grey;
     padding: 10px;
     color: whitesmoke;
+    border-radius: 20px;
+}
+
+#logo{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 15%;
     
+    
+}
+
+th:nth-child(odd){
+    background-color: brown;
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: bisque;
 }
