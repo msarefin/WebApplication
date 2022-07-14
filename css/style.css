@@ -1,14 +1,20 @@
 div#bodyDiv{
-    background-color: turquoise;
+    background-color: orange;
     color: whitesmoke;
     border-radius: 20px;
     padding: 5px;
 }
 
 #logo {
-    height: 100px;
-    width: 100px;
     border-radius: 50%;
+    padding: 15px;
+    
+}
+#logo img{
+    border-radius: 50%;
+    background: white;
+    border: 1px black solid;
+    
 }
 
 header{
@@ -18,7 +24,7 @@ header{
     display: flex;
     flex-direction: row;
     padding:5px;
-    background:grey;
+    background:rgb(36, 80, 99);
 }
 
 aside{
@@ -43,10 +49,7 @@ aside{
     
 }
 
-#logo{
-    background-color: whitesmoke;
-    border-radius: 10px;
-}
+
 
 table, th, td{
     border: 1px solid black;
