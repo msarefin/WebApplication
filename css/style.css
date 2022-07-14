@@ -23,6 +23,7 @@ header{
 
 aside{
     justify-content:right;
+    background:green;
 }
 .banner{
     align-items: right;
