@@ -1,8 +1,45 @@
 div#bodyDiv{
-    background-color: grey;
-    padding: 10px;
+    background-color: turquoise;
     color: whitesmoke;
     border-radius: 20px;
+    padding: 5px;
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+header{
+    border:1px solid white;
+    border-radius: 10px;
+    margin:10px;
+    display: flex;
+    flex-direction: row;
+    padding:5px;
+    background:grey;
+}
+
+aside{
+    justify-content:right;
+}
+.banner{
+    align-items: right;
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+}
+
+.menu_item{
+    display:inline-flex;
+    border:1px solid brown; 
+    background:brown; 
+    color:bisque;
+    padding:20px;
+    border-radius: 10%;
+    list-style: none;
+    
 }
 
 #logo{
