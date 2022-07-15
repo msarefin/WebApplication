@@ -27,23 +27,22 @@ header{
     background:rgb(36, 80, 99);
 }
 
-aside{
-    justify-content:right;
-    background:green;
-}
+
 .banner{
     align-items: right;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding-left: 25px;
+    border:1px solid black; 
+    flex-basis: 100%;
 }
 
 .menu_item{
     display:inline-flex;
-    border:1px solid brown; 
+    border:1px solid white; 
     background:brown; 
     color:bisque;
-    padding:20px;
+    padding:10px 10px;
     border-radius: 10%;
     list-style: none;
     
