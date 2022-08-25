@@ -1,1 +1,3 @@
-console.log("This is form JS")
+function myheading(t){
+    document.querySelector('#title').innerHTML =t;
+}
