@@ -1,0 +1,9 @@
+
+
+javascript
+
+variables: 
+declared with 
+var - same variable can be declared multiple times across all scopes
+let - the variable can be declared only once within the the same scope
+const - can be delcared and assigned a value only once within a scope
