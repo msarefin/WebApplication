@@ -98,5 +98,12 @@ function remove(){
 
 remove();
 
+people.push("last");
+people.unshift("first");
+
 console.log('Final List of people',people);
 
+(function main() {
+    console.log('Hello World! what is it?');
+    document.write("<br><h1>my world is great!</h1>");
+}());
