@@ -35,7 +35,7 @@ function listItem(){
     
         const li = document.createElement('li');
         li.id = 'listItem'; 
-        li.setAttribute('data-counter',c);
+        li.setAttribute('data-counter',c); 
         const text = document.createTextNode('counter: '+c);
         li.appendChild(text);
         mylist.appendChild(li);
