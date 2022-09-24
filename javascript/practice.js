@@ -2,6 +2,7 @@ let counter = document.querySelector('#num');
 let inc = document.querySelector('#inc');
 let dec = document.querySelector('#dec');
 
+const ulElement = document.getElementById('listItem');
 let c = 0;
 
 
@@ -17,11 +18,15 @@ function increase(){
 
 function decrease(){
     if(c>0){
+        const li = document.querySelector('[data-counter="'+c+'"]');
+        const tblrow = document.querySelector('[data-counter-row="'+c+'"]');
+        li.remove();
+        tblrow.remove();
         c--; 
         console.log(c);
         counter.innerHTML=c;
-        tableIns();
-        listItem();
+        // tableIns();
+        // listItem();
     }
 }
 
@@ -47,8 +52,11 @@ const tblBody = document.getElementById('tbl');
 function tableIns(){
     const trow = document.createElement('tr');
     trow.id='row';
+    trow.setAttribute('data-counter-row',c)
     const tcell = document.createElement('td');
     tcell.id='cell';
-    const text = document.createTextNode('ID: '+c);
-    tblBody.appendChild(trow).appendChild(tcell).appendChild(text);
+    const text = document.createTextNode(c);
+    const dataRow = tblBody.appendChild(trow); 
+    dataRow.appendChild(tcell).appendChild(text);
+    dataRow.appendChild(document.createElement('value')).appendChild(document.createTextNode('Value added'));
 }
