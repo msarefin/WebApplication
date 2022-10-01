@@ -60,3 +60,24 @@ function tableIns(){
     dataRow.appendChild(tcell).appendChild(text);
     dataRow.appendChild(document.createElement('value')).appendChild(document.createTextNode('Value added'));
 }
+
+const a = null ?? 2
+
+document.writeln(a);
+
+document.write('This is just a text')
+
+const car = {
+    type:"Fiat",
+    model:"500",
+    color:"white"
+}
+document.write('<br>')
+document.write(car.color);
+
+car.color = "red"; 
+car.year = 2022;
+
+document.write('<br>');
+document.writeln(car.color);
+document.write(car.year);
