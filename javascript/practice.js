@@ -36,8 +36,7 @@ dec.addEventListener('click',decrease);
 const mylist = document.getElementById('myList');
 
 function listItem(){
-        
-    
+           
         const li = document.createElement('li');
         li.id = 'listItem'; 
         li.setAttribute('data-counter',c); 
