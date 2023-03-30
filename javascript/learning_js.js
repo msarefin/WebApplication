@@ -5,11 +5,11 @@ document.write('<h1>This page was created to Learn javascript!!!</h1>')
 
 var a = "This is just a number";
 
-var a = "123";
+var a1 = "123";
 
-var a = 321; 
+var a2 = 321; 
 
-document.getElementById('var').innerHTML = typeof(a); 
+document.getElementById('var').innerHTML = '<b>'+typeof(a)+'</b><br>'+'<i>'+typeof(a2)+'</i>'; 
 
 let x ;
 // If a variable is declared in javascript the default value is undefined
