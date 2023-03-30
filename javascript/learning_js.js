@@ -5,7 +5,7 @@ document.write('<h1>This page was created to Learn javascript!!!</h1>')
 
 var a = "This is just a number";
 
-var a1 = "123";
+var a1 = "123";git 
 
 var a2 = 321; 
 
